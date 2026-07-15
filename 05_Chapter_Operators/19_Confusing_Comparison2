@@ -1,0 +1,13 @@
+// Rule of Thumb
+
+// Loose equality 
+// Strict equality
+console.log("- confusing comparison in JS");
+
+//---------------Null and Undefined------------------//
+console.log(null == undefined);     // True
+console.log(null === undefined);       // False
+console.log(null == 0);                 // False
+console.log(null >= 0);                 // True
+console.log(null > 0);                  // False
+console.log(null == 0 || null > 0);     // False
