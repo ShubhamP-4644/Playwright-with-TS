@@ -17,7 +17,11 @@
         // Function
         // Objects
 
+        // ----------------Assignment Operator----------------------//
         let x = 10;
         x = "ShubhamPrajapati";
         console.log(x);
+        
+
+        //----------------Arithmatic Operator----------------------//
         
