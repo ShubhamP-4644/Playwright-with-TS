@@ -6,3 +6,9 @@ let category =
         statusCode < 400 ? "Redirect" :
             statusCode < 500 ? "Client Error" : "Server Error";
 console.log(`Status ${statusCode}: ${category}`);
+
+// Here all conditions are separated via semicolon, 
+// its totally based on condition if condition is fullfil at any step 
+// it would stop excuting further
+
+// Modify status code to 202 and 304 and 504 and give it a try for different condition and result for better under standing

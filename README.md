@@ -10,7 +10,7 @@ Personal learning repo for JavaScript/TypeScript fundamentals and Playwright, or
 | [02_Chapter_JS_Basics](02_Chapter_JS_Basics) | `let` and variable declarations | `02_let_concept.js` |
 | [03_Chapter_Identifier](03_Chapter_Identifier) | Identifier rules, comments | `03_Identifier_Rules_Part1.js`, `04_Identifier_Rules_Part2.js`, `05_Comments.js`, `06_Identifier_IQ.js` |
 | [04_Chapter_Literals](04_Chapter_Literals) | Literals, `null`/`undefined`, numbers | `07_Literals.js`, `08_Null_Undefined.js`, `09_Null_IQ.js`, `10_Literals_part2.js`, `11_Number.js`, `12_Number_Part2.js` |
-| [05_Chapter_Operators](05_Chapter_Operators) | Data types, assignment/arithmetic/comparison/logical/ternary/typeof operators, interview questions | `13_DatatTypes.js`, `14_Assigment_Operator.js`, `15_Arithmetic_Operator.js`, `16_Comparison_Operator.js`, `17_Logical-Operators.js`, `18_Confusing_Comparison1.js`, `19_Confusing_Comparison2`, `20_Question_Interview.js`, `21_String_Operator.js`, `22_Ternary_Operator.js`, `23_Interview_Question.js`, `24_Interview_Question2.js`, `25_Interview_Question3.js`, `26_Interview_Question4.js`, `27_Interview_Question5.js`, `28_Nested_Ternary_Operator.js`, `29_IQ_NestedTernary1.js`, `30_IQ_NestedTernary2.js`, `31_TypeOf_Operator.js` |
+| [05_Chapter_Operators](05_Chapter_Operators) | Data types, assignment/arithmetic/comparison/logical/ternary/typeof/increment/decrement/nullish-coalescing operators, interview questions | `13_DatatTypes.js`, `14_Assigment_Operator.js`, `15_Arithmetic_Operator.js`, `16_Comparison_Operator.js`, `17_Logical-Operators.js`, `18_Confusing_Comparison1.js`, `19_Confusing_Comparison2`, `20_Question_Interview.js`, `21_String_Operator.js`, `22_Ternary_Operator.js`, `23_Interview_Question.js`, `24_Interview_Question2.js`, `25_Interview_Question3.js`, `26_Interview_Question4.js`, `27_Interview_Question5.js`, `28_Nested_Ternary_Operator.js`, `29_IQ_NestedTernary1.js`, `30_IQ_NestedTernary2.js`, `31_TypeOf_Operator.js`, `32_Increment_Decrement_Operator.js`, `33_Advance_Increment.js`, `34_Increment_Part2.js`, `35_Decrement_Operator.js`, `36_Null_Coalescing_Operator.js` |
 
 ## IQ_Notes (Interview Prep / Concept Notes)
 
@@ -43,6 +43,11 @@ Personal learning repo for JavaScript/TypeScript fundamentals and Playwright, or
 | [IQ_NestedTernary1.md](IQ_Notes/IQ_NestedTernary1.md) | Nested ternary — HTTP status code categorization |
 | [IQ_NestedTernary2.md](IQ_Notes/IQ_NestedTernary2.md) | Nested ternary — temperature feel categorization |
 | [IQ_TypeOf_Operator.md](IQ_Notes/IQ_TypeOf_Operator.md) | The `typeof` operator |
+| [IQ_Increment_Decrement_Operator.md](IQ_Notes/IQ_Increment_Decrement_Operator.md) | Increment/decrement operators (`++`, `--`, pre vs post) |
+| [IQ_Advance_Increment.md](IQ_Notes/IQ_Advance_Increment.md) | Advanced increment — multiple `++` in one expression |
+| [IQ_Increment_Part2.md](IQ_Notes/IQ_Increment_Part2.md) | Increment/decrement interview-style puzzles |
+| [IQ_Decrement_Operator.md](IQ_Notes/IQ_Decrement_Operator.md) | Decrement operator (pre vs post) |
+| [IQ_Null_Coalescing_Operator.md](IQ_Notes/IQ_Null_Coalescing_Operator.md) | Nullish coalescing operator (`??`) |
 
 ## Custom Commands
 
