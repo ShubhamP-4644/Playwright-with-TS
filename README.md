@@ -11,6 +11,9 @@ Personal learning repo for JavaScript/TypeScript fundamentals and Playwright, or
 | [03_Chapter_Identifier](03_Chapter_Identifier) | Identifier rules, comments | `03_Identifier_Rules_Part1.js`, `04_Identifier_Rules_Part2.js`, `05_Comments.js`, `06_Identifier_IQ.js` |
 | [04_Chapter_Literals](04_Chapter_Literals) | Literals, `null`/`undefined`, numbers | `07_Literals.js`, `08_Null_Undefined.js`, `09_Null_IQ.js`, `10_Literals_part2.js`, `11_Number.js`, `12_Number_Part2.js` |
 | [05_Chapter_Operators](05_Chapter_Operators) | Data types, assignment/arithmetic/comparison/logical/ternary/typeof/increment/decrement/nullish-coalescing operators, interview questions | `13_DatatTypes.js`, `14_Assigment_Operator.js`, `15_Arithmetic_Operator.js`, `16_Comparison_Operator.js`, `17_Logical-Operators.js`, `18_Confusing_Comparison1.js`, `19_Confusing_Comparison2`, `20_Question_Interview.js`, `21_String_Operator.js`, `22_Ternary_Operator.js`, `23_Interview_Question.js`, `24_Interview_Question2.js`, `25_Interview_Question3.js`, `26_Interview_Question4.js`, `27_Interview_Question5.js`, `28_Nested_Ternary_Operator.js`, `29_IQ_NestedTernary1.js`, `30_IQ_NestedTernary2.js`, `31_TypeOf_Operator.js`, `32_Increment_Decrement_Operator.js`, `33_Advance_Increment.js`, `34_Increment_Part2.js`, `35_Decrement_Operator.js`, `36_Null_Coalescing_Operator.js` |
+| [06_Chapter_Statement](06_Chapter_Statement) | Conditional statements | `37_IQ.js`, `38_IQ2.js`, `39_Multiple_Condition.js` |
+| [07_Chapter_Switch](07_Chapter_Switch) | `switch` statement, fall-through, case grouping, `switch(true)` | `39_Switch.js`, `40_IQ1.js`, `41_IQ2.js`, `42_Real_API_Testing.js`, `43_Switch_Group.js`, `44_IQ3.js`, `45_IQ4.js`, `46_IQ5.js`, `47_IQ6.js` |
+| [08_User_Inputs](08_User_Inputs) | Reading user input (browser vs Node, sync vs async) | `48_JS.js`, `49_Node_UI.js`, `50_Prompt.js`, `51_FS.js` |
 
 ## IQ_Notes (Interview Prep / Concept Notes)
 
@@ -48,6 +51,19 @@ Personal learning repo for JavaScript/TypeScript fundamentals and Playwright, or
 | [IQ_Increment_Part2.md](IQ_Notes/IQ_Increment_Part2.md) | Increment/decrement interview-style puzzles |
 | [IQ_Decrement_Operator.md](IQ_Notes/IQ_Decrement_Operator.md) | Decrement operator (pre vs post) |
 | [IQ_Null_Coalescing_Operator.md](IQ_Notes/IQ_Null_Coalescing_Operator.md) | Nullish coalescing operator (`??`) |
+| [IQ_Switch.md](IQ_Notes/IQ_Switch.md) | The `switch` statement basics |
+| [IQ_IQ1.md](IQ_Notes/IQ_IQ1.md) | Switch fall-through bug (missing `break`) |
+| [IQ_IQ2.md](IQ_Notes/IQ_IQ2.md) | Switch — no match falls to `default` |
+| [IQ_Real_API_Testing.md](IQ_Notes/IQ_Real_API_Testing.md) | Switch — HTTP status code handling |
+| [IQ_Switch_Group.md](IQ_Notes/IQ_Switch_Group.md) | Switch — intentional case grouping |
+| [IQ_IQ3.md](IQ_Notes/IQ_IQ3.md) | Switch fall-through cascade example |
+| [IQ_IQ4.md](IQ_Notes/IQ_IQ4.md) | `switch(true)` as an if/else ladder |
+| [IQ_IQ5.md](IQ_Notes/IQ_IQ5.md) | Switch — duplicate case values (unreachable code) |
+| [IQ_IQ6.md](IQ_Notes/IQ_IQ6.md) | Switch uses strict `===` comparison |
+| [IQ_JS.md](IQ_Notes/IQ_JS.md) | Browser `prompt()` for user input |
+| [IQ_Node_UI.md](IQ_Notes/IQ_Node_UI.md) | Node.js `readline` for user input |
+| [IQ_Prompt.md](IQ_Notes/IQ_Prompt.md) | `prompt-sync` package for synchronous input in Node |
+| [IQ_FS.md](IQ_Notes/IQ_FS.md) | Reading stdin directly via `fs.readFileSync(0, ...)` |
 
 ## Custom Commands
 
