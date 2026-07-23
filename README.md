@@ -14,6 +14,7 @@ Personal learning repo for JavaScript/TypeScript fundamentals and Playwright, or
 | [06_Chapter_Statement](06_Chapter_Statement) | Conditional statements | `37_IQ.js`, `38_IQ2.js`, `39_Multiple_Condition.js` |
 | [07_Chapter_Switch](07_Chapter_Switch) | `switch` statement, fall-through, case grouping, `switch(true)` | `39_Switch.js`, `40_IQ1.js`, `41_IQ2.js`, `42_Real_API_Testing.js`, `43_Switch_Group.js`, `44_IQ3.js`, `45_IQ4.js`, `46_IQ5.js`, `47_IQ6.js` |
 | [08_User_Inputs](08_User_Inputs) | Reading user input (browser vs Node, sync vs async) | `48_JS.js`, `49_Node_UI.js`, `50_Prompt.js`, `51_FS.js` |
+| [09_Chapter_Loops](09_Chapter_Loops) | `for`, `while`, `do...while` loops, nested loops | `52_Loop.js`, `53_For_Loop1.js`, `54_Increment.js`, `55_For_Loop2.js`, `56_For_Loop3.js`, `57_While1.js`, `58_While2.js`, `59_While3.js`, `60_While_Vs_For.js`, `61_Do_While.js`, `62_DoWhile_vs_While.js`, `63_NestedFor_Loop.js` |
 
 ## IQ_Notes (Interview Prep / Concept Notes)
 
@@ -64,6 +65,18 @@ Personal learning repo for JavaScript/TypeScript fundamentals and Playwright, or
 | [IQ_Node_UI.md](IQ_Notes/IQ_Node_UI.md) | Node.js `readline` for user input |
 | [IQ_Prompt.md](IQ_Notes/IQ_Prompt.md) | `prompt-sync` package for synchronous input in Node |
 | [IQ_FS.md](IQ_Notes/IQ_FS.md) | Reading stdin directly via `fs.readFileSync(0, ...)` |
+| [IQ_Loop.md](IQ_Notes/IQ_Loop.md) | Loops — why we need them |
+| [IQ_For_Loop1.md](IQ_Notes/IQ_For_Loop1.md) | The `for` loop |
+| [IQ_Increment.md](IQ_Notes/IQ_Increment.md) | Pre-increment vs post-increment in an assignment |
+| [IQ_For_Loop2.md](IQ_Notes/IQ_For_Loop2.md) | `for` loop — variable names and boundaries (`<` vs `<=`) |
+| [IQ_For_Loop3.md](IQ_Notes/IQ_For_Loop3.md) | `for` loop edge cases — zero iterations, infinite loops |
+| [IQ_While1.md](IQ_Notes/IQ_While1.md) | The `while` loop |
+| [IQ_While2.md](IQ_Notes/IQ_While2.md) | `while` loop — practical retry counter |
+| [IQ_While3.md](IQ_Notes/IQ_While3.md) | `while (true)` with `break` |
+| [IQ_While_Vs_For.md](IQ_Notes/IQ_While_Vs_For.md) | `while` vs `do...while` — condition timing |
+| [IQ_Do_While.md](IQ_Notes/IQ_Do_While.md) | The `do...while` loop |
+| [IQ_DoWhile_vs_While.md](IQ_Notes/IQ_DoWhile_vs_While.md) | `do...while` vs `while` — same code, different guarantee |
+| [IQ_NestedFor_Loop.md](IQ_Notes/IQ_NestedFor_Loop.md) | Nested `for` loops |
 
 ## Custom Commands
 
