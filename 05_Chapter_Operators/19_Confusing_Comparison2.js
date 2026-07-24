@@ -2,7 +2,7 @@
 
 // Loose equality 
 // Strict equality
-console.log("- confusing comparison in JS");
+console.log("confusing comparison in JS");
 
 //---------------Null and Undefined------------------//
 console.log(null == undefined);     // True
