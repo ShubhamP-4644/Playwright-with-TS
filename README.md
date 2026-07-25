@@ -15,6 +15,7 @@ Personal learning repo for JavaScript/TypeScript fundamentals and Playwright, or
 | [07_Chapter_Switch](07_Chapter_Switch) | `switch` statement, fall-through, case grouping, `switch(true)` | `39_Switch.js`, `40_IQ1.js`, `41_IQ2.js`, `42_Real_API_Testing.js`, `43_Switch_Group.js`, `44_IQ3.js`, `45_IQ4.js`, `46_IQ5.js`, `47_IQ6.js` |
 | [08_User_Inputs](08_User_Inputs) | Reading user input (browser vs Node, sync vs async) | `48_JS.js`, `49_Node_UI.js`, `50_Prompt.js`, `51_FS.js` |
 | [09_Chapter_Loops](09_Chapter_Loops) | `for`, `while`, `do...while` loops, nested loops | `52_Loop.js`, `53_For_Loop1.js`, `54_Increment.js`, `55_For_Loop2.js`, `56_For_Loop3.js`, `57_While1.js`, `58_While2.js`, `59_While3.js`, `60_While_Vs_For.js`, `61_Do_While.js`, `62_DoWhile_vs_While.js`, `63_NestedFor_Loop.js` |
+| [10_Chapter_Array](10_Chapter_Array) | Array creation, access/modify, add/remove, searching, finding, iterating | `64_Array1.js`, `65_Array2.js`, `66_Array_Creation.js`, `67_Array_Access_Modify.js`, `68_Array_Adding_Remove.js`, `69_Array_REAL.js`, `70_Array_Searching.js`, `71_IQ.js`, `72_Array_Iterate.js` |
 | [Practice](Practice) | Standalone practice scripts (if/else, switch, tricky JS puzzles, triangle classifier) | `If_Else.js`, `Switch.js`, `Tricky1.js`, `Tricky2.js`, `Tricky3.js`, `Tringle_Classifier.js` |
 
 ## IQ_Notes (Interview Prep / Concept Notes)
@@ -78,6 +79,15 @@ Personal learning repo for JavaScript/TypeScript fundamentals and Playwright, or
 | [IQ_Do_While.md](IQ_Notes/IQ_Do_While.md) | The `do...while` loop |
 | [IQ_DoWhile_vs_While.md](IQ_Notes/IQ_DoWhile_vs_While.md) | `do...while` vs `while` — same code, different guarantee |
 | [IQ_NestedFor_Loop.md](IQ_Notes/IQ_NestedFor_Loop.md) | Nested `for` loops |
+| [IQ_Array1.md](IQ_Notes/IQ_Array1.md) | Arrays — basic indexing, `.length`, `.at()` |
+| [IQ_Array2.md](IQ_Notes/IQ_Array2.md) | Arrays — out-of-bounds access and mixed data types |
+| [IQ_Array_Creation.md](IQ_Notes/IQ_Array_Creation.md) | Creating arrays — literal, constructor, `Array.of()`, `Array.from()` |
+| [IQ_Array_Access_Modify.md](IQ_Notes/IQ_Array_Access_Modify.md) | Accessing and modifying array items |
+| [IQ_Array_Adding_Remove.md](IQ_Notes/IQ_Array_Adding_Remove.md) | Adding/removing array items — `push`, `pop`, `unshift`, `shift`, `splice` |
+| [IQ_Array_REAL.md](IQ_Notes/IQ_Array_REAL.md) | A realistic array example |
+| [IQ_Array_Searching.md](IQ_Notes/IQ_Array_Searching.md) | Searching arrays — `indexOf`, `lastIndexOf`, `includes` |
+| [IQ_IQ.md](IQ_Notes/IQ_IQ.md) | Finding items by condition — `find`, `findIndex`, `findLast`, `findLastIndex` |
+| [IQ_Array_Iterate.md](IQ_Notes/IQ_Array_Iterate.md) | Looping through arrays — `for`, `for...of`, `forEach`, `.entries()`, `for...in` |
 
 ## Custom Commands
 
