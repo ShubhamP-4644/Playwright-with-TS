@@ -29,3 +29,6 @@ var name = "Amit";
 var Shubham_Prajapati = "Hello";
 var Shubham$Prajapati = "Hello";
 var Shubham098 = "Hello";
+
+var 10shubham = "Hello";
+console.log(10shubham);

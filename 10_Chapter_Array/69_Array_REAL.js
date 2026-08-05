@@ -1,7 +1,7 @@
 let browser = ['chrome', 'firefox', 'safari', 'opera', 'edge'];
 console.log(browser.length);
 
-browser.pop();
+browser.pop();      // Remove from End
 // console.log(browser);
 
 let removed = browser.shift();

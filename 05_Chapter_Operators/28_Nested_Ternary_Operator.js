@@ -5,5 +5,5 @@
 let age = 26;
 //   age > 18 -> he will goa, else not else
 // drink > 25  yes, else no 
-let Will_Shubham_Drink = age > 18 ? (age > 26 ? "Drink" : "No") : false;
+let Will_Shubham_Drink = age > 18 ? (age > 25 ? "Drink" : "No") : false;
 console.log(`Can Shubham Drink? : ${Will_Shubham_Drink}`);
