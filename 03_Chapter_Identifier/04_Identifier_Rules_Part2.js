@@ -1,6 +1,7 @@
 var name = "Shubham";
 
-// Camel case: Camel case is a naming convention where multiple words are joined together without spaces, and each word after the first starts with a capital letter.
+// Camel case: Camel case is a naming convention where multiple words are joined together without spaces, 
+// and each word after the first starts with a capital letter.
 var firstName = "Shubham";
 var lastName = "Prajapati";
 

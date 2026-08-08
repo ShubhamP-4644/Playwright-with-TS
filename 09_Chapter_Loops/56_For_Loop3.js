@@ -7,9 +7,9 @@ for (let spg = 0; spg > 1; spg++) {
     console.log(spg);
 }
 
-for (let gtm = 0; ; gtm++) {
-    console.log(gtm);
-}
+// for (let gtm = 0; ; gtm++) {
+//     console.log(gtm);    // Infinite output
+// }
 
 for (let shubham = 0; shubham < 18; shubham++) {
     if (shubham > 15) {

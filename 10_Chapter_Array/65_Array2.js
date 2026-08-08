@@ -2,7 +2,7 @@ let arr = [10, 20, 30, 40];
 console.log(arr.length);
 // 0 to 3
 console.log(arr[4]); // undefined
-
+console.log(arr[3]);       // 40
 
 let testResults = ["pass", "fail", "pass", "skip"];
 console.log(testResults);

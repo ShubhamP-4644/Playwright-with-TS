@@ -11,7 +11,7 @@ console.log(statuses.at(-2));
 
 console.log(statuses.at(-4));
 
-// Modify
+// Modify the value at 1 index
 statuses[1] = "blocked";
 console.log(statuses);
 

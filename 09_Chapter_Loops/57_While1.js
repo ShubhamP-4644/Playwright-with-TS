@@ -1,5 +1,5 @@
 let i = 0;
-for (; i < 10; i++) {
+for (; i < 10; i++) {       //  for (; i < 10; i++) both are same
     console.log(i);
 }
 

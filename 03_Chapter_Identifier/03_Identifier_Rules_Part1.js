@@ -30,5 +30,5 @@ var Shubham_Prajapati = "Hello";
 var Shubham$Prajapati = "Hello";
 var Shubham098 = "Hello";
 
-var 10shubham = "Hello";
-console.log(10shubham);
+// var 10shubham = "Hello";  starting from number not allowed
+// console.log(10shubham);
