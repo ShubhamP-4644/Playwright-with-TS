@@ -14,3 +14,9 @@ Q2. [Medium] What is the output?
 
 console.log([9, 1, 2].sort());
 1,2,9
+
+Q3. [Hard] What is the output?
+
+console.log([9, 1, 2, 10, 12].sort());
+
+[ 1, 10, 12, 2, 9 ]
