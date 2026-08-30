@@ -1,0 +1,19 @@
+{
+  "name": "learnplaywright3x",
+  "version": "1.0.0",
+  "description": "Personal learning repo for JavaScript/TypeScript fundamentals and Playwright, organized as chapter-wise code examples plus a collection of interview-prep notes (`IQ_Notes`).",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:ShubhamP-4644/Playwright-with-TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.3.0"
+  }
+}

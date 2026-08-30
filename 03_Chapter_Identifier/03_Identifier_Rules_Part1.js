@@ -15,8 +15,11 @@ var ss = 14;
 var xyz098 = 15;
 
 
+
 // Invalid and not allowed
 // var 45=43;
+// var 2shubham = 30;
+// console.log(2shubham);
 
 // It is case sensitive since Name and name are two different variable and its allowed
 var Name = "Shubham";

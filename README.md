@@ -2,6 +2,17 @@
 
 Personal learning repo for JavaScript/TypeScript fundamentals and Playwright, organized as chapter-wise code examples plus a collection of interview-prep notes (`IQ_Notes`).
 
+## Playwright Tests
+
+This repo also has a working Playwright + TypeScript test setup:
+
+- `playwright.config.ts` — Playwright configuration (Chromium/Firefox/WebKit projects, HTML reporter)
+- `tests/` — Playwright spec files (e.g. `example.spec.ts`)
+- `.github/workflows/playwright.yml` — CI workflow that runs the test suite on push/PR to `main`/`master`
+- `package.json` / `package-lock.json` — project manifest and `@playwright/test` dependency
+
+Run locally with `npx playwright test` (after `npm install`).
+
 ## Chapters
 
 | Chapter | Topic | Files |
@@ -21,8 +32,16 @@ Personal learning repo for JavaScript/TypeScript fundamentals and Playwright, or
 | [13_Chapter_String](13_Chapter_String) | String methods, searching, extraction, conversion | `109_String.js`, `110_String_Fn.js`, `111_Str_Searching.js`, `112_Extraction_String.js`, `113_String_more.js`, `114_String_ExtraFn.js`, `115_String_Conversion.js`, `String_CheatSheet.md` |
 | [14_Chapter_Objects](14_Chapter_Objects) | Objects, call-by-reference vs call-by-value | `116_Objects.js`, `117_Object_Person.js`, `118_Objects2.js`, `119_Objects3.js`, `120_Config.js`, `121_CallByRef_CallByValue.js` |
 | [15_Chapter_MultiDimensional_Array](15_Chapter_MultiDimensional_Array) | Multidimensional arrays, pattern printing | `122_Array_1D.js`, `123_Array2.js`, `124_Array_Fn.js`, `125_Right_Pattern.js`, `126_Left_Pattern.js`, `127_Pyramid_Pattern.js` |
+| [16_Chapter_CallBack](16_Chapter_CallBack) | Callbacks, sync vs async, callback hell | `128_Callback.js`, `129_Callback.js`, `130_Sync_Callback.js`, `131_Async_Callback.js`, `132_CallBackHell.js`, `133_CallBack_Hell.js`, `134_Call_Return.js`, `135_Pyramid_Dom.js` |
+| [17_Chapter_Promise](17_Chapter_Promise) | Promises — resolve/reject, `.then`/`.catch`/`.finally`, `all`/`race`/`allSettled` | `136_Promise.js`, `137_Real_Promise.js`, `138_Real_Promise.js`, `139_Promise_Finally.js`, `140_Promise_Real.js`, `141_Promise_All.js`, `142_Promise_Settle.js`, `143_Promise_Race.js`, `144_Promise_IQ.js`, `145_IQ.js` |
+| [18_Chapter_Async_Await](18_Chapter_Async_Await) | `async`/`await` syntax, sequential vs parallel execution, flaky APIs, Playwright example | `146.js`, `147_BestWay.js`, `148_AA.js`, `149_Example.spec.ts`, `150.js`, `151_Seq_Execution.js`, `152_Parallel_Execution.js`, `153_API_Flaky.js`, `154_IQ.js` |
+| [19_Chapter_Import_Export](19_Chapter_Import_Export) | ES Modules — named/default exports, `import`/`export` | `Logs/155.js`, `Logs/156_Test.js`, `Logs/157.js`, `Logs/Logs/Logger.js`, `Logs/package.json`, `Logs/testutil.js`, `Logs/utils.js` |
+| [20_Chapter_Class_Object_OOPs](20_Chapter_Class_Object_OOPs) | Classes, objects, constructors, public/private fields, static members | `01_Class_Objects/158.js`, `159.js`, `160.js`, `161_Real_Conss.js`, `02_Public_Private/162_Real.js`, `163_IQ.js`, `164_Private_Public.js`, `03_Static_JS/165_Static.js`, `166_IQ.js`, `167.js`, `168.js` |
+| [21_Chapter_OOPs_Encapsulation](21_Chapter_OOPs_Encapsulation) | Encapsulation — private fields, controlled access | `169.js`, `170_Car.js`, `171_Ecap_Bank.js`, `172_IQ.js`, `173_IQ.js`, `174_IQ.js`, `175_IQ.js` |
+| [22_Chapter_OOPs_Inheritance](22_Chapter_OOPs_Inheritance) | Inheritance — `extends`, `super`, method overriding | `176_Single_Inheritance.js`, `177.js`, `178_IQ.js`, `179_IQ.js`, `180_IQ.js`, `181_IQ.js`, `182_IQ.js` |
+| [23_Chapter_OOPs_Polymorphism](23_Chapter_OOPs_Polymorphism) | Polymorphism (in progress) | *(empty — placeholder)* |
 | [MCQ](MCQ) | Multiple-choice question sets | `Array_MCQ.md` |
-| [Practice](Practice) | Standalone practice scripts (if/else, switch, tricky JS puzzles, triangle classifier, array/string operations) | `If_Else.js`, `Switch.js`, `Tricky1.js`, `Tricky2.js`, `Tricky3.js`, `Tringle_Classifier.js`, `Array_Operations.js`, `Array_Pop.js`, `Array_Push.js`, `Array_Shift.js`, `Array_Splice.js`, `Array_Unshift.js`, `Array.Fixedsize.js`, `Array.Length.js`, `Array_Find.js`, `Array_From.js`, `Array_Iterate.js`, `Array_Searching.js`, `Array_Short.js`, `Array_WithElements.js`, `Reverse_String.js` |
+| [Practice](Practice) | Standalone practice scripts (if/else, switch, tricky JS puzzles, triangle classifier, array/string operations, math puzzles) | `If_Else.js`, `Switch.js`, `Tricky1.js`, `Tricky2.js`, `Tricky3.js`, `Tringle_Classifier.js`, `Array_Operations.js`, `Array_Pop.js`, `Array_Push.js`, `Array_Shift.js`, `Array_Splice.js`, `Array_Unshift.js`, `Array.Fixedsize.js`, `Array.Length.js`, `Array_Find.js`, `Array_From.js`, `Array_Iterate.js`, `Array_Searching.js`, `Array_Short.js`, `Array_WithElements.js`, `Reverse_String.js`, `Even_Odd.js`, `Factorial.js`, `Largest_Find.js`, `Palindrome_Check.js`, `Prac1.js` |
 
 ## IQ_Notes (Interview Prep / Concept Notes)
 
@@ -94,6 +113,15 @@ Personal learning repo for JavaScript/TypeScript fundamentals and Playwright, or
 | [IQ_Array_Searching.md](IQ_Notes/IQ_Array_Searching.md) | Searching arrays — `indexOf`, `lastIndexOf`, `includes` |
 | [IQ_IQ.md](IQ_Notes/IQ_IQ.md) | Finding items by condition — `find`, `findIndex`, `findLast`, `findLastIndex` |
 | [IQ_Array_Iterate.md](IQ_Notes/IQ_Array_Iterate.md) | Looping through arrays — `for`, `for...of`, `forEach`, `.entries()`, `for...in` |
+| [IQ_MultiDimensional_Array.md](IQ_Notes/IQ_MultiDimensional_Array.md) | Multidimensional arrays and pattern printing |
+| [IQ_CallBack.md](IQ_Notes/IQ_CallBack.md) | Callbacks — sync vs async, callback hell |
+| [IQ_Promise.md](IQ_Notes/IQ_Promise.md) | Promises — resolve/reject, chaining, combinators |
+| [IQ_Async_Await.md](IQ_Notes/IQ_Async_Await.md) | `async`/`await` syntax |
+| [IQ_Import_Export.md](IQ_Notes/IQ_Import_Export.md) | ES Modules — named/default exports |
+| [IQ_Class_Object_OOPs.md](IQ_Notes/IQ_Class_Object_OOPs.md) | Classes and objects — constructors, public/private fields, static members |
+| [IQ_Objects.md](IQ_Notes/IQ_Objects.md) | Objects, call-by-reference vs call-by-value |
+| [IQ_OOPs_Encapsulation.md](IQ_Notes/IQ_OOPs_Encapsulation.md) | Encapsulation — hiding data, controlled access |
+| [IQ_OOPs_Inheritance.md](IQ_Notes/IQ_OOPs_Inheritance.md) | Inheritance — `extends`, `super`, overriding |
 
 ## Custom Commands
 

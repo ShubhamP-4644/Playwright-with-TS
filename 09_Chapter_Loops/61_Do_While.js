@@ -3,4 +3,4 @@ do {
     console.log("Execute a Code!");
     console.log("RETRYing.......", retry);
     retry++;
-} while (retry < 3);
+} while (retry < 3);        // It runs atleast once even if condition fails

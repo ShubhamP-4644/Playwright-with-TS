@@ -16,14 +16,14 @@ let a1_b2 = "mixed letters digits underscore";
 //let 1stPlace = "invalid";
 //let 2ndItem = "invalid"; // SyntaxError: Invalid or unexpected token
 
-// Keyword
+// Keyword we can not use as they are already defined
 // let class = "invalid";
 // let const = "invalid";
 // let function = "invalid";
 let Function = "invalid";
 
 let MyVar = "uppercase M";
-let myVar = "lowercase v";
+let myVar = "lowercase m";
 
 // Unicode letters and Unicode escape sequences are allowed
 
